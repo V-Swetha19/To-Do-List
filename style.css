@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Pacifico&family=Sofia&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Pacifico';
+    box-sizing: border-box;
+}
+body {
+    background-color: #8ec0e9;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    color: #0a0a0a;
+    margin-top: 20px;    
+} 
+.home {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #f7aee5;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 25px rgba(238, 37, 154, 0.986);
+}
+.input-home {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    padding: 8px 55px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} 
+button {
+    padding: 6px 15px;
+    background-color: #fa3fdb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}  
+  ul {
+    list-style-type: none;
+    padding: 0;
+}  
+  li {
+   margin-bottom: 5px;
+}  
+.completed {
+    text-decoration: line-through;
+}
